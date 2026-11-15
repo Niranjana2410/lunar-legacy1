@@ -1,0 +1,108 @@
+.timeline-hero {
+  padding: 8rem 0 3rem;
+  background: linear-gradient(180deg, var(--navy-mid) 0%, var(--navy) 100%);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 3rem;
+}
+.timeline-hero h1 { margin-bottom: 0.75rem; }
+.timeline-sub {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  max-width: 540px;
+  margin-bottom: 1.5rem;
+}
+.timeline-filters {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.timeline-track {
+  position: relative;
+  padding-left: 2.5rem;
+  padding-bottom: 5rem;
+  max-width: 760px;
+}
+.timeline-track::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(to bottom, var(--gold-dim) 0%, var(--border) 80%, transparent 100%);
+}
+
+.timeline-year {
+  position: relative;
+  margin: 2.5rem 0 1rem -2.5rem;
+  padding-left: 2.5rem;
+}
+.timeline-year span {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.timeline-entry {
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+.timeline-entry__dot {
+  position: absolute;
+  left: -2.5rem;
+  top: 1.1rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--gold-dim);
+  border: 2px solid var(--navy);
+  z-index: 1;
+}
+.timeline-entry--unverified .timeline-entry__dot {
+  background: var(--charcoal-lt);
+}
+
+.timeline-entry__card {
+  padding: 1rem 1.25rem;
+  background: var(--navy-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  transition: border-color var(--transition);
+}
+.timeline-entry__card:hover {
+  border-color: var(--border-gold);
+}
+.timeline-entry--unverified .timeline-entry__card {
+  opacity: 0.65;
+}
+
+.timeline-entry__header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.4rem;
+}
+.timeline-entry__artifact {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--gold);
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.timeline-entry__artifact:hover { color: var(--silver); }
+
+.timeline-entry__date {
+  font-size: 0.72rem;
+  color: var(--silver-dim);
+  margin-bottom: 0.4rem;
+}
+.timeline-entry__text {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}

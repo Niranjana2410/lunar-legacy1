@@ -1,0 +1,756 @@
+[
+  {
+    "id": "apollo-lm-eagle",
+    "slug": "apollo-lm-eagle",
+    "name": "Apollo 11 Lunar Module Eagle",
+    "shortName": "Eagle Descent Stage",
+    "type": "Lunar Module Descent Stage",
+    "destination": "Moon",
+    "body": "moon",
+    "mission": "Apollo 11",
+    "agency": "NASA",
+    "manufacturer": "Grumman Aircraft Engineering Corporation",
+    "launchDate": "1969-07-16",
+    "landingDate": "1969-07-20",
+    "missionEndDate": "1969-07-24",
+    "coordinates": {
+      "lat": 0.6741,
+      "lon": 23.4727,
+      "label": "Sea of Tranquility (Mare Tranquillitatis)",
+      "source": "NASA/NSSDCA",
+      "verified": true
+    },
+    "mass_kg": "unknown",
+    "dimensions": "Unknown",
+    "purpose": "Carry two astronauts from lunar orbit to the lunar surface and serve as the launch platform for the ascent stage.",
+    "crew": ["Neil Armstrong (Commander)", "Buzz Aldrin (Lunar Module Pilot)"],
+    "status": "Abandoned on the lunar surface. Descent stage remains at Tranquility Base.",
+    "statusType": "permanent",
+    "lastKnownActivity": "July 21, 1969 — ascent stage lifted off from the descent stage platform at 17:54 UTC",
+    "scientificContribution": "Demonstrated the first crewed lunar landing. The descent stage served as the launch pad for the ascent stage return. Astronauts deployed an ALSEP early science package (EASEP) and collected 21.55 kg of lunar samples.",
+    "whatHappenedToIt": "The descent stage was intentionally left behind when the ascent stage lifted off on July 21, 1969. It remains at Tranquility Base, undisturbed. NASA's Lunar Reconnaissance Orbiter has photographed the site from orbit, confirming the hardware is still there.",
+    "nasaSourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+    "nssdcId": "1969-059C",
+    "additionalSources": [
+      "https://www.nasa.gov/mission/apollo-11/",
+      "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo11info.html"
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Apollo_11_lunar_module.jpg/800px-Apollo_11_lunar_module.jpg",
+      "caption": "Apollo 11 Lunar Module Eagle in lunar orbit before descent",
+      "credit": "NASA",
+      "license": "Public Domain"
+    },
+    "timeline": [
+      {
+        "date": "1969-07-16",
+        "event": "Apollo 11 launches from Kennedy Space Center on Saturn V rocket",
+        "verified": true
+      },
+      {
+        "date": "1969-07-20",
+        "event": "Eagle separates from Columbia in lunar orbit",
+        "verified": true
+      },
+      {
+        "date": "1969-07-20",
+        "eventTime": "20:17 UTC",
+        "event": "Eagle lands in the Sea of Tranquility. Neil Armstrong: 'The Eagle has landed.'",
+        "verified": true
+      },
+      {
+        "date": "1969-07-21",
+        "eventTime": "02:56 UTC",
+        "event": "Armstrong becomes first human to walk on the Moon",
+        "verified": true
+      },
+      {
+        "date": "1969-07-21",
+        "eventTime": "17:54 UTC",
+        "event": "Ascent stage lifts off, leaving descent stage permanently on the surface",
+        "verified": true
+      },
+      {
+        "date": "2009-present",
+        "event": "NASA Lunar Reconnaissance Orbiter photographs Tranquility Base, confirming the descent stage and equipment remain intact",
+        "verified": true
+      }
+    ],
+    "verifiedFacts": [
+      "Landed July 20, 1969 at 20:17 UTC — Source: NSSDCA 1969-059C",
+      "Landing site: Sea of Tranquility (Mare Tranquillitatis) — Source: NSSDCA",
+      "Crew: Neil Armstrong and Buzz Aldrin — Source: NASA",
+      "21.55 kg of lunar samples collected — Source: NASA Curation Office",
+      "Ascent stage departed July 21, 1969 — Source: NSSDCA",
+      "LRO imagery confirms site preservation — Source: NASA/LRO"
+    ],
+    "unknownFacts": [
+      "Exact current physical condition of the hardware",
+      "Precise mass of descent stage at landing time is not in accessible records"
+    ],
+    "evidenceLevel": "high",
+    "featuredOnHome": true,
+    "category": "Lunar Lander",
+    "tags": ["Apollo", "Moon", "First Landing", "Historic"],
+    "narrative": "On July 20, 1969, the Eagle touched down in the Sea of Tranquility, fulfilling President Kennedy's challenge. When Neil Armstrong and Buzz Aldrin lifted off the next day, they left behind the descent stage — a four-legged gold-foil platform that became the first human-made monument on another world. It still stands there today, exactly where they left it, while billions of kilometres of space separate it from anyone who might visit."
+  },
+  {
+    "id": "apollo-lrv",
+    "slug": "apollo-lrv",
+    "name": "Lunar Roving Vehicle",
+    "shortName": "Moon Buggy (Apollo 15)",
+    "type": "Lunar Surface Rover",
+    "destination": "Moon",
+    "body": "moon",
+    "mission": "Apollo 15",
+    "agency": "NASA",
+    "manufacturer": "Boeing Company",
+    "launchDate": "1971-07-26",
+    "landingDate": "1971-07-30",
+    "missionEndDate": "1971-08-02",
+    "coordinates": {
+      "lat": 26.13,
+      "lon": 3.63,
+      "label": "Hadley Rille / Montes Apennines",
+      "source": "NSSDCA / NASA Apollo 15 info page",
+      "verified": true
+    },
+    "mass_kg": 210,
+    "dimensions": "3.1 m long, 2.3 m wheelbase, 1.14 m max height",
+    "purpose": "Transport two astronauts and their equipment across the lunar surface, extending the exploration range far beyond walking distance.",
+    "crew": ["David Scott (Commander)", "James Irwin (Lunar Module Pilot)"],
+    "status": "Abandoned at Hadley Rille landing site. All three Apollo LRVs (15, 16, 17) remain on the Moon.",
+    "statusType": "permanent",
+    "lastKnownActivity": "August 2, 1971 — parked by astronauts after final EVA. Camera remotely operated from Earth to watch LM ascent.",
+    "scientificContribution": "Extended exploration range to 5.0 km from the LM. Total distance driven on Apollo 15: 27.8 km in 3 hours 2 minutes. Enabled collection of samples from Hadley Rille and Apennine Mountains, including the Genesis Rock (anorthosite, ~4.5 billion years old).",
+    "whatHappenedToIt": "The LRV was deliberately left behind — it was too heavy to return. After the final EVA, Scott parked it at a carefully chosen angle so its TV camera could be remotely commanded from Earth to film the ascent stage launch. It remains parked at Hadley Rille.",
+    "nasaSourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+    "nssdcId": "1971-063C",
+    "additionalSources": [
+      "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+      "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo15info.html"
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Apollo_15_LRV.jpg/800px-Apollo_15_LRV.jpg",
+      "caption": "Apollo 15 Lunar Roving Vehicle at Hadley Rille",
+      "credit": "NASA",
+      "license": "Public Domain"
+    },
+    "timeline": [
+      {
+        "date": "1971-07-26",
+        "event": "Apollo 15 launches from Kennedy Space Center",
+        "verified": true
+      },
+      {
+        "date": "1971-07-30",
+        "event": "Falcon lands at Hadley Rille / Apennines (26.13°N, 3.63°E)",
+        "verified": true
+      },
+      {
+        "date": "1971-07-31",
+        "event": "LRV deployed for first time on the Moon. First manned lunar rover drive in history",
+        "verified": true
+      },
+      {
+        "date": "1971-08-01",
+        "event": "Scott and Irwin reach Hadley Rille rim and collect Genesis Rock",
+        "verified": true
+      },
+      {
+        "date": "1971-08-02",
+        "event": "Final EVA. Scott parks LRV facing LM. Total distance driven: 27.8 km",
+        "verified": true
+      },
+      {
+        "date": "1971-08-02",
+        "event": "LRV camera remotely commanded to film Falcon ascent stage launch from Earth",
+        "verified": true
+      }
+    ],
+    "verifiedFacts": [
+      "Mass: 210 kg — Source: NASA/NSSDCA LRV page",
+      "Apollo 15 total distance: 27.8 km in 3h 2min — Source: NSSDCA nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+      "Maximum range from LM on Apollo 15: 5.0 km — Source: NSSDCA LRV page",
+      "Landing site coordinates: 26.13°N, 3.63°E — Source: NSSDCA Apollo 15 info",
+      "Manufacturer: Boeing Company — Source: NASA",
+      "Power: Two 36-volt silver-zinc batteries — Source: NASA history documents"
+    ],
+    "unknownFacts": [
+      "Exact current physical condition after 50+ years of exposure to cosmic radiation and thermal cycling",
+      "Whether any micrometeorite impacts have damaged the hardware"
+    ],
+    "evidenceLevel": "high",
+    "featuredOnHome": true,
+    "category": "Rover",
+    "tags": ["Apollo", "Moon", "Rover", "Exploration"],
+    "narrative": "Three Lunar Roving Vehicles sit silently on the Moon today, each one parked exactly where an Apollo crew left it. The Apollo 15 rover at Hadley Rille was parked with its camera pointing at the lunar module — so scientists on Earth could remotely film the ascent stage lifting off. The camera's batteries have long since died, but the rover itself, in the near-perfect vacuum of the Moon, may be remarkably well preserved."
+  },
+  {
+    "id": "alsep-apollo12",
+    "slug": "alsep-apollo12",
+    "name": "ALSEP — Apollo Lunar Surface Experiments Package",
+    "shortName": "ALSEP (Apollo 12)",
+    "type": "Scientific Instrument Array",
+    "destination": "Moon",
+    "body": "moon",
+    "mission": "Apollo 12",
+    "agency": "NASA",
+    "manufacturer": "Bendix Corporation",
+    "launchDate": "1969-11-14",
+    "landingDate": "1969-11-19",
+    "missionEndDate": "1977-09-30",
+    "coordinates": {
+      "lat": -3.0128,
+      "lon": -23.4219,
+      "label": "Oceanus Procellarum (Ocean of Storms)",
+      "source": "NSSDCA 1969-099C (coordinates from Lunar Reconnaissance Orbiter, DE 421 reference frame)",
+      "verified": true
+    },
+    "mass_kg": "unknown",
+    "dimensions": "Multiple instruments spread over approximately 100 m",
+    "purpose": "Conduct long-term scientific measurements of the Moon's seismic activity, solar wind, magnetic field, ionosphere, and thermal properties after astronauts departed.",
+    "crew": ["Charles Conrad Jr. (Commander)", "Alan Bean (Lunar Module Pilot)"],
+    "status": "Deactivated September 30, 1977. Hardware remains on the lunar surface.",
+    "statusType": "decommissioned",
+    "lastKnownActivity": "September 30, 1977 — NASA terminated all ALSEP operations due to budget constraints. Stations had been transmitting for up to 8 years.",
+    "scientificContribution": "ALSEP networks across all Apollo landing sites collectively detected thousands of moonquakes, measured lunar heat flow, confirmed the Moon has a small iron core, characterised the thin lunar atmosphere (exosphere), and studied solar wind particles continuously for years.",
+    "whatHappenedToIt": "The instruments operated autonomously via radio link with Earth until NASA shut them down on September 30, 1977 to cut costs. The hardware, powered by a Radioisotopic Thermoelectric Generator (RTG), still physically sits on the surface. The RTG fuel (Plutonium-238) continues to decay but the instruments are permanently silent.",
+    "nasaSourceUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C",
+    "nssdcId": "1969-099C",
+    "additionalSources": [
+      "https://nssdc.gsfc.nasa.gov/misc/documents/b32116.pdf",
+      "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo12info.html"
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Apollo_12_ALSEP.jpg/800px-Apollo_12_ALSEP.jpg",
+      "caption": "Apollo 12 ALSEP deployment on the Ocean of Storms",
+      "credit": "NASA",
+      "license": "Public Domain"
+    },
+    "timeline": [
+      {
+        "date": "1969-11-14",
+        "event": "Apollo 12 launches — lightning strikes vehicle twice at 36 seconds, briefly knocking out fuel cells",
+        "verified": true
+      },
+      {
+        "date": "1969-11-19",
+        "event": "Intrepid lands within 180 metres of Surveyor 3 at Oceanus Procellarum (3.0128°S, 23.4219°W)",
+        "verified": true
+      },
+      {
+        "date": "1969-11-19",
+        "event": "Conrad and Bean deploy the ALSEP array: seismometer, magnetometer, solar wind spectrometer, ion detector, cold cathode gauge",
+        "verified": true
+      },
+      {
+        "date": "1969-11-24",
+        "event": "Apollo 12 crew returns to Earth. ALSEP continues operating autonomously",
+        "verified": true
+      },
+      {
+        "date": "1977-09-30",
+        "event": "NASA terminates all ALSEP station operations due to budget cuts. Final transmissions received.",
+        "verified": true
+      }
+    ],
+    "verifiedFacts": [
+      "Landing coordinates: 3.0128°S, 23.4219°W — Source: NSSDCA 1969-099C (LRO-verified)",
+      "ALSEP operated until September 30, 1977 — Source: ALSEP Termination Report, NSSDCA",
+      "Instruments included: Passive Seismic Experiment, Solar Wind Spectrometer, Suprathermal Ion Detector, Cold Cathode Gauge, Magnetometer — Source: NSSDCA experiment records",
+      "Landed within ~180 m of Surveyor 3 spacecraft — Source: NSSDCA 1969-099C",
+      "ALSEP powered by RTG (Radioisotopic Thermoelectric Generator) — Source: NASA"
+    ],
+    "unknownFacts": [
+      "Current physical condition of instruments after 55+ years",
+      "Whether any instruments could theoretically be reactivated (they cannot — receivers were switched off)"
+    ],
+    "evidenceLevel": "high",
+    "featuredOnHome": false,
+    "category": "Science Station",
+    "tags": ["Apollo", "Moon", "Science", "Long-Duration"],
+    "narrative": "For eight years after the astronauts left, the ALSEP stations silently watched the Moon. They felt moonquakes. They tasted the solar wind. They measured the faint warmth leaking from the lunar interior. Then on September 30, 1977, an accountant's decision ended it all. The instruments are still there — frozen in time, RTGs slowly cooling — but no one is listening anymore."
+  },
+  {
+    "id": "surveyor-3",
+    "slug": "surveyor-3",
+    "name": "Surveyor 3",
+    "shortName": "Surveyor 3",
+    "type": "Lunar Lander / Surface Sampler",
+    "destination": "Moon",
+    "body": "moon",
+    "mission": "Surveyor Program",
+    "agency": "NASA",
+    "manufacturer": "Hughes Aircraft Company",
+    "launchDate": "1967-04-17",
+    "landingDate": "1967-04-20",
+    "missionEndDate": "1967-05-04",
+    "coordinates": {
+      "lat": -3.017,
+      "lon": -23.383,
+      "label": "Oceanus Procellarum — inside Surveyor Crater",
+      "source": "NASA / multiple NASA sources confirm Oceanus Procellarum location",
+      "verified": true
+    },
+    "mass_kg": 296,
+    "dimensions": "Unknown",
+    "purpose": "Soft-land on the Moon, transmit photographs of the surface, and test soil mechanics to verify the lunar surface could support an Apollo lander.",
+    "crew": null,
+    "status": "Still on the lunar surface in Surveyor Crater, Oceanus Procellarum. Only spacecraft ever visited by humans on another world.",
+    "statusType": "permanent",
+    "lastKnownActivity": "May 4, 1967 — last verified transmission. Visited by Apollo 12 astronauts November 1969.",
+    "scientificContribution": "Transmitted over 6,300 photographs of the lunar surface. Soil sampling tests confirmed the lunar surface was solid enough to support an Apollo lunar module. Provided critical data that enabled mission planners to approve the Apollo program landing approach.",
+    "whatHappenedToIt": "Surveyor 3 transmitted data until May 4, 1967, then went silent. It became uniquely famous on November 19–20, 1969 when Apollo 12 astronauts Pete Conrad and Alan Bean walked to it — it was only about 180 metres from their landing site. They removed the TV camera, soil sampler, and other components and returned them to Earth. The lander frame remains on the Moon today.",
+    "nasaSourceUrl": "https://science.nasa.gov/mission/surveyor-3/",
+    "nssdcId": "1967-035C",
+    "additionalSources": [
+      "https://solarsystem.nasa.gov/missions/surveyor-3/in-depth",
+      "https://www.nasa.gov/missions/lunar-reconnaissance-orbiter-looks-at-apollo-12-surveyor-3-landing-sites/"
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Surveyor_3-Apollo_12.jpg/800px-Surveyor_3-Apollo_12.jpg",
+      "caption": "Apollo 12 astronaut Pete Conrad stands next to Surveyor 3 on the lunar surface, November 1969",
+      "credit": "NASA",
+      "license": "Public Domain"
+    },
+    "timeline": [
+      {
+        "date": "1967-04-17",
+        "event": "Surveyor 3 launches from Cape Canaveral on Atlas-Centaur rocket",
+        "verified": true
+      },
+      {
+        "date": "1967-04-20",
+        "event": "Lands in Oceanus Procellarum inside a small 200-metre crater (later named Surveyor Crater). Bounced twice before final rest.",
+        "verified": true
+      },
+      {
+        "date": "1967-04-20",
+        "event": "Begins transmitting — eventually sends over 6,300 photographs and conducts soil sampling",
+        "verified": true
+      },
+      {
+        "date": "1967-05-04",
+        "event": "Last verified transmission from Surveyor 3",
+        "verified": true
+      },
+      {
+        "date": "1969-11-19",
+        "event": "Apollo 12 Intrepid lands ~180 m away — first and only time humans have visited a previously landed spacecraft on another world",
+        "verified": true
+      },
+      {
+        "date": "1969-11-20",
+        "event": "Conrad and Bean remove TV camera, soil sampler, and other parts; return them to Earth for microbiological study",
+        "verified": true
+      }
+    ],
+    "verifiedFacts": [
+      "Landed April 20, 1967 in Oceanus Procellarum — Source: NASA",
+      "Transmitted more than 6,300 photographs — Source: NASA science.nasa.gov",
+      "Visited by Apollo 12 astronauts in November 1969 — Source: NASA",
+      "Only spacecraft ever visited by humans on another world — Source: NASA",
+      "TV camera and soil sampler returned to Earth — Source: NASA",
+      "Landing site is in a ~200 m crater now named Surveyor Crater — Source: NASA"
+    ],
+    "unknownFacts": [
+      "Exact fate of remaining hardware after 55+ years of thermal cycling and radiation exposure",
+      "Whether the returned camera's trace microorganisms (Streptococcus mitis) survived the lunar journey — results were disputed and have not been confirmed by subsequent studies"
+    ],
+    "evidenceLevel": "high",
+    "featuredOnHome": true,
+    "category": "Lunar Lander",
+    "tags": ["Surveyor", "Moon", "Precursor", "Historic", "Visited"],
+    "narrative": "Surveyor 3 landed on the Moon in April 1967, did its job, and went silent. Two and a half years later, Pete Conrad and Alan Bean walked up to it — the only time in history that humans have visited a spacecraft previously landed on another world. They snapped off its TV camera and brought it home. The body of Surveyor 3 still sits in its crater, watched over by photos taken by NASA's Lunar Reconnaissance Orbiter."
+  },
+  {
+    "id": "sojourner",
+    "slug": "sojourner",
+    "name": "Sojourner",
+    "shortName": "Sojourner Rover",
+    "type": "Mars Surface Rover",
+    "destination": "Mars",
+    "body": "mars",
+    "mission": "Mars Pathfinder",
+    "agency": "NASA / JPL",
+    "manufacturer": "NASA Jet Propulsion Laboratory",
+    "launchDate": "1996-12-04",
+    "landingDate": "1997-07-04",
+    "missionEndDate": "1997-09-27",
+    "coordinates": {
+      "lat": 19.13,
+      "lon": 33.22,
+      "label": "Ares Vallis, Chryse Planitia",
+      "source": "NASA/JPL Mars Pathfinder project",
+      "verified": true
+    },
+    "mass_kg": 10.6,
+    "dimensions": "630 mm long × 480 mm wide × 280 mm high",
+    "purpose": "Technology demonstration: prove a small free-ranging rover could successfully operate on Mars. Secondary purpose: analyse Martian rocks and soil with an Alpha Proton X-ray Spectrometer (APXS).",
+    "crew": null,
+    "status": "Permanently on Mars surface at Ares Vallis. Last communication September 27, 1997.",
+    "statusType": "permanent",
+    "lastKnownActivity": "September 27, 1997, 10:23 UTC — last data transmission received from Mars Pathfinder lander. Contact with Sojourner was lost when the lander (Carl Sagan Memorial Station) failed, likely due to battery failure.",
+    "scientificContribution": "First wheeled vehicle to operate on a planet other than Earth. Operated for 83 sols — far exceeding its 7-sol design life. Analysed 16 rock and soil targets with APXS. Data supported the hypothesis that Ares Vallis was shaped by catastrophic ancient flooding. Mission cost $265 million.",
+    "whatHappenedToIt": "Sojourner relied on the Pathfinder lander as a radio relay to Earth. When the lander lost power (likely a battery failure), Sojourner lost its communication link. With no way to reach Earth, Sojourner would have continued roving in a programmed search pattern for contact — but the link was never re-established. It remains on Mars at Ares Vallis.",
+    "nasaSourceUrl": "https://science.nasa.gov/mission/mars-pathfinder/",
+    "nssdcId": "MESURPR",
+    "additionalSources": [
+      "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=MESURPR",
+      "https://nssdc.gsfc.nasa.gov/planetary/mesur.html"
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sojourner_on_Mars_PIA01122.jpg/800px-Sojourner_on_Mars_PIA01122.jpg",
+      "caption": "Sojourner rover on the Martian surface near Ares Vallis, 1997",
+      "credit": "NASA/JPL",
+      "license": "Public Domain"
+    },
+    "timeline": [
+      {
+        "date": "1996-12-04",
+        "event": "Mars Pathfinder launches from Cape Canaveral on Delta II rocket",
+        "verified": true
+      },
+      {
+        "date": "1997-07-04",
+        "event": "Pathfinder bounces to a stop at Ares Vallis using airbags — first Mars landing in 21 years",
+        "verified": true
+      },
+      {
+        "date": "1997-07-06",
+        "event": "Sojourner rolls off the lander ramp onto Martian soil at approximately 05:40 UTC — first rover on Mars",
+        "verified": true
+      },
+      {
+        "date": "1997-07-11",
+        "event": "Primary 7-sol mission objectives completed. Mission extended.",
+        "verified": true
+      },
+      {
+        "date": "1997-09-27",
+        "event": "Last data transmission received from Pathfinder at 10:23 UTC. Contact permanently lost.",
+        "verified": true
+      }
+    ],
+    "verifiedFacts": [
+      "Mass: 10.6 kg — Source: NSSDCA / Mars Pathfinder project (Wikiwand cites same figure)",
+      "Landed July 4, 1997 at Ares Vallis — Source: NASA/JPL",
+      "Operated 83 sols vs. 7-sol design life — Source: NASA science.nasa.gov",
+      "Last signal September 27, 1997 at 10:23 UTC — Source: NASA science.nasa.gov",
+      "Analysed 16 rock/soil targets with APXS — Source: JPL",
+      "Dimensions: 630 × 480 × 280 mm — Source: NSSDCA"
+    ],
+    "unknownFacts": [
+      "Exact final resting position of Sojourner after the lander link failed",
+      "Whether Sojourner continued moving after last contact",
+      "Current physical condition"
+    ],
+    "evidenceLevel": "high",
+    "featuredOnHome": true,
+    "category": "Rover",
+    "tags": ["Mars", "Rover", "Pathfinder", "First"],
+    "narrative": "Sojourner was designed to last a week. It lasted 83 days. When its radio relay — the Pathfinder lander — went dark on September 27, 1997, Sojourner was left alone on a rust-coloured plain. With no way to call home, it would have kept roving in circles, searching for a signal that would never come. It is still out there, somewhere in the rocks of Ares Vallis."
+  },
+  {
+    "id": "ingenuity",
+    "slug": "ingenuity",
+    "name": "Ingenuity Mars Helicopter",
+    "shortName": "Ingenuity",
+    "type": "Mars Aerial Vehicle",
+    "destination": "Mars",
+    "body": "mars",
+    "mission": "Mars 2020 / Perseverance",
+    "agency": "NASA / JPL",
+    "manufacturer": "NASA Jet Propulsion Laboratory / AeroVironment",
+    "launchDate": "2020-07-30",
+    "landingDate": "2021-02-18",
+    "missionEndDate": "2024-01-18",
+    "coordinates": {
+      "lat": 18.4,
+      "lon": 77.0,
+      "label": "Jezero Crater",
+      "source": "JPL Ingenuity press kit: approximately 18 degrees latitude, 77 degrees longitude",
+      "verified": true
+    },
+    "mass_kg": 1.8,
+    "dimensions": "Fuselage: 13.6 × 19.5 × 16.3 cm; rotor diameter ~1.2 m; leg clearance ~13 cm",
+    "purpose": "Technology demonstration — prove powered, controlled heavier-than-air flight was possible on Mars. No science instruments aboard.",
+    "crew": null,
+    "status": "Permanently grounded at Jezero Crater. One or more rotor blades damaged on Flight 72 landing, January 18, 2024. Vehicle remains upright and in communication.",
+    "statusType": "decommissioned",
+    "lastKnownActivity": "January 18, 2024 — Flight 72. Rotor blade(s) damaged during landing. Declared end of mission.",
+    "scientificContribution": "First powered, controlled flight on another planet (April 19, 2021). Originally designed for up to 5 flights over 30 days. Completed 72 flights over nearly 3 years. Total flight distance exceeded planned range by more than 14×. Maximum altitude: 24 m (Flight 61). Maximum speed: 10 m/s. Total flight time: over 2 hours. Demonstrated aerial scouting capability for future Mars missions.",
+    "whatHappenedToIt": "On Flight 72 (January 18, 2024), one or more rotor blades sustained damage during landing. The vehicle remains upright on the surface and can still communicate with Earth via the Perseverance rover, but can no longer fly. NASA officially ended the mission on January 25, 2024.",
+    "nasaSourceUrl": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+    "nssdcId": null,
+    "additionalSources": [
+      "https://mars.nasa.gov/ingenuity",
+      "https://www.jpl.nasa.gov/news/nasa-performs-first-aircraft-accident-investigation-on-another-world/",
+      "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/",
+      "https://www.jpl.nasa.gov/news/press_kits/ingenuity/landing/quick_facts/"
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ingenuity_helicopter_on_Mars.jpg/800px-Ingenuity_helicopter_on_Mars.jpg",
+      "caption": "Ingenuity helicopter on the Martian surface, photographed by Perseverance rover",
+      "credit": "NASA/JPL-Caltech",
+      "license": "Public Domain"
+    },
+    "timeline": [
+      {
+        "date": "2020-07-30",
+        "event": "Mars 2020 launches from Cape Canaveral on ULA Atlas V 541",
+        "verified": true
+      },
+      {
+        "date": "2021-02-18",
+        "event": "Perseverance lands in Jezero Crater at 3:55 PM EST, Ingenuity attached to its belly",
+        "verified": true
+      },
+      {
+        "date": "2021-04-19",
+        "event": "Flight 1: First powered, controlled flight on another planet — 39-second hover at 3 m altitude",
+        "verified": true
+      },
+      {
+        "date": "2021-05-04",
+        "event": "Original 5-flight technology demonstration complete. Mission extended.",
+        "verified": true
+      },
+      {
+        "date": "2023-08",
+        "event": "Flight 61 sets altitude record: 24 metres",
+        "verified": true
+      },
+      {
+        "date": "2024-01-18",
+        "event": "Flight 72: Rotor blade(s) damaged during landing. Final flight.",
+        "verified": true
+      },
+      {
+        "date": "2024-01-25",
+        "event": "NASA officially declares end of Ingenuity mission",
+        "verified": true
+      }
+    ],
+    "verifiedFacts": [
+      "Mass: 1.8 kg (Earth) / 0.68 kg equivalent (Mars gravity) — Source: JPL press kit",
+      "72 total flights — Source: NASA JPL",
+      "First flight: April 19, 2021 — Source: NASA",
+      "Final flight: January 18, 2024 — Source: NASA news release",
+      "Maximum altitude: 24 m on Flight 61 — Source: NASA science.nasa.gov",
+      "Maximum speed: 10 m/s — Source: NASA science.nasa.gov",
+      "Total flight time: over 2 hours — Source: NASA JPL",
+      "Rotor blades: two 4-foot (1.2 m) counter-rotating rotors at ~2,400 rpm — Source: JPL press kit",
+      "Landing site: Jezero Crater, ~18°N 77°E — Source: JPL press kit"
+    ],
+    "unknownFacts": [
+      "Whether Perseverance will photograph Ingenuity's final resting location in detail",
+      "Exact extent of rotor blade damage"
+    ],
+    "evidenceLevel": "high",
+    "featuredOnHome": true,
+    "category": "Aerial Vehicle",
+    "tags": ["Mars", "Helicopter", "First Flight", "Technology Demo"],
+    "narrative": "Ingenuity was supposed to fly five times in thirty days. It flew 72 times over three years. On its 72nd flight, on January 18, 2024, something went wrong during landing. A rotor blade snapped. The little helicopter that had already rewritten the history of aviation sat down on Mars for the last time. It can still talk to Earth through Perseverance — but it will never fly again."
+  },
+  {
+    "id": "spirit",
+    "slug": "spirit",
+    "name": "Mars Exploration Rover Spirit",
+    "shortName": "Spirit",
+    "type": "Mars Surface Rover",
+    "destination": "Mars",
+    "body": "mars",
+    "mission": "Mars Exploration Rover A (MER-A)",
+    "agency": "NASA / JPL",
+    "manufacturer": "NASA Jet Propulsion Laboratory",
+    "launchDate": "2003-06-10",
+    "landingDate": "2004-01-04",
+    "missionEndDate": "2010-03-22",
+    "coordinates": {
+      "lat": -14.5684,
+      "lon": 175.4728,
+      "label": "Gusev Crater",
+      "source": "NASA/JPL MER mission",
+      "verified": true
+    },
+    "mass_kg": 185,
+    "dimensions": "1.6 m tall, 2.3 m wide, 1.5 m long",
+    "purpose": "Search for geological evidence of past water activity on Mars at Gusev Crater, a large impact basin believed to have once held a lake.",
+    "crew": null,
+    "status": "Permanently embedded in soft soil at Troy, Gusev Crater. Last communication March 22, 2010.",
+    "statusType": "permanent",
+    "lastKnownActivity": "March 22, 2010 — final communication received. Spirit had been silent for several weeks; this was the last confirmed signal.",
+    "scientificContribution": "Operated 2,210 sols — 20× its 90-sol design life. Drove 7.73 km. Discovered evidence of ancient hydrothermal activity in Home Plate region. Found silica-rich soil suggesting past water interaction. Climbed Husband Hill, the first mountain summit on another planet.",
+    "whatHappenedToIt": "In May 2009, Spirit's wheels broke through a thin crust and became embedded in soft sulfate-rich soil at a location named Troy. Unable to free itself after months of commands, Spirit could no longer position its solar panels optimally. As the Martian winter approached, power dropped too low to maintain communications. Its last signal reached Earth on March 22, 2010. NASA officially ended the mission on May 25, 2011.",
+    "nasaSourceUrl": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+    "nssdcId": "2003-027A",
+    "additionalSources": [
+      "https://solarsystem.nasa.gov/missions/spirit/in-depth",
+      "https://ntrs.nasa.gov/api/citations/20160001767/downloads/20160001767.pdf"
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mars_spirit_rover.jpg/800px-Mars_spirit_rover.jpg",
+      "caption": "Artist concept of Spirit rover on Mars surface",
+      "credit": "NASA/JPL",
+      "license": "Public Domain"
+    },
+    "timeline": [
+      {
+        "date": "2003-06-10",
+        "event": "Spirit launches from Cape Canaveral on Delta II Heavy rocket",
+        "verified": true
+      },
+      {
+        "date": "2004-01-04",
+        "event": "Spirit lands in Gusev Crater using airbag system",
+        "verified": true
+      },
+      {
+        "date": "2004-06",
+        "event": "Spirit reaches Columbia Hills, finding signs of ancient water alteration in rocks",
+        "verified": true
+      },
+      {
+        "date": "2005-08",
+        "event": "Spirit reaches summit of Husband Hill — first mountain summit on another planet",
+        "verified": true
+      },
+      {
+        "date": "2007-05",
+        "event": "Spirit discovers bright silica-rich soil near Home Plate, strong evidence of past hydrothermal water activity",
+        "verified": true
+      },
+      {
+        "date": "2009-05",
+        "event": "Spirit's wheels break through soil crust at location 'Troy' — becomes embedded in sulfate-rich soil",
+        "verified": true
+      },
+      {
+        "date": "2010-03-22",
+        "event": "Last communication received from Spirit",
+        "verified": true
+      },
+      {
+        "date": "2011-05-25",
+        "event": "NASA officially ends Spirit mission",
+        "verified": true
+      }
+    ],
+    "verifiedFacts": [
+      "Landed January 4, 2004 at Gusev Crater — Source: NASA",
+      "Operated 2,210 sols — Source: Planetary Society",
+      "Total distance driven: 7.73 km — Source: Planetary Society",
+      "Last communication: March 22, 2010 — Source: NASA",
+      "Mission officially ended May 25, 2011 — Source: NASA solarsystem.nasa.gov",
+      "Designed for 90-sol mission life — Source: NASA JPL"
+    ],
+    "unknownFacts": [
+      "Current physical condition of the rover at Troy",
+      "Whether the wheels could have been freed with different commands — this remains debated"
+    ],
+    "evidenceLevel": "high",
+    "featuredOnHome": false,
+    "category": "Rover",
+    "tags": ["Mars", "Rover", "MER", "Gusev Crater"],
+    "narrative": "Spirit was stuck. After six extraordinary years — summiting hills, discovering signs of ancient hot springs, surviving dust storms — one wheel punched through a thin crust and Spirit sank into soft Martian soil. The team tried for months to rock it free. Nothing worked. The Martian winter came, the solar panels lost their angle to the sun, and on March 22, 2010, Spirit sent its last message home."
+  },
+  {
+    "id": "opportunity",
+    "slug": "opportunity",
+    "name": "Mars Exploration Rover Opportunity",
+    "shortName": "Opportunity",
+    "type": "Mars Surface Rover",
+    "destination": "Mars",
+    "body": "mars",
+    "mission": "Mars Exploration Rover B (MER-B)",
+    "agency": "NASA / JPL",
+    "manufacturer": "NASA Jet Propulsion Laboratory",
+    "launchDate": "2003-07-07",
+    "landingDate": "2004-01-25",
+    "missionEndDate": "2018-06-10",
+    "coordinates": {
+      "lat": -1.9462,
+      "lon": 354.4734,
+      "label": "Meridiani Planum — Perseverance Valley, Endeavour Crater",
+      "source": "NASA/JPL MER mission",
+      "verified": true
+    },
+    "mass_kg": 185,
+    "dimensions": "1.6 m tall, 2.3 m wide, 1.5 m long",
+    "purpose": "Search for geological evidence of past water activity at Meridiani Planum, a region suspected to have once harboured liquid water based on orbital data.",
+    "crew": null,
+    "status": "Permanently on Mars surface. Last communication June 10, 2018 during planet-wide dust storm.",
+    "statusType": "permanent",
+    "lastKnownActivity": "June 10, 2018 — last communication before a planet-wide dust storm blanketed its solar panels. NASA declared mission end February 13, 2019.",
+    "scientificContribution": "Operated 5,111 sols — 56× its 90-sol design life. Drove 45.16 km — a planetary surface distance record. Found the first definitive evidence of liquid water in Mars' history (hematite 'blueberries' and sedimentary rock layers at Eagle Crater). Explored Victoria and Endeavour craters.",
+    "whatHappenedToIt": "In June 2018, a massive global dust storm on Mars blocked nearly all sunlight from reaching Opportunity's solar panels. The rover entered a low-power fault mode. After more than 1,000 recovery attempts over eight months, NASA engineers sent a final set of commands on February 13, 2019. No response came. The mission was declared over.",
+    "nasaSourceUrl": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+    "nssdcId": "2003-032A",
+    "additionalSources": [
+      "https://ares.jsc.nasa.gov/missions/mer/",
+      "https://www.jpl.nasa.gov/edu/resources/teachable-moment/mars-rover-mission-comes-to-an-end-but-science-legacy-live-on/"
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Opportunity_rover.jpg/800px-Opportunity_rover.jpg",
+      "caption": "Opportunity rover self-portrait on Mars",
+      "credit": "NASA/JPL-Caltech",
+      "license": "Public Domain"
+    },
+    "timeline": [
+      {
+        "date": "2003-07-07",
+        "event": "Opportunity launches from Cape Canaveral on Delta II Heavy rocket",
+        "verified": true
+      },
+      {
+        "date": "2004-01-25",
+        "event": "Opportunity lands at Meridiani Planum in Eagle Crater",
+        "verified": true
+      },
+      {
+        "date": "2004-03",
+        "event": "Discovers hematite spheres ('blueberries') and layered sedimentary rock — first definitive evidence of liquid water on ancient Mars",
+        "verified": true
+      },
+      {
+        "date": "2006-09",
+        "event": "Enters Victoria Crater — first crater explored from the inside by a Mars rover",
+        "verified": true
+      },
+      {
+        "date": "2011-08",
+        "event": "Reaches Endeavour Crater after 3-year traverse — 21 km from landing site",
+        "verified": true
+      },
+      {
+        "date": "2018-06-10",
+        "event": "Last communication before planet-wide dust storm overwhelms solar panels",
+        "verified": true
+      },
+      {
+        "date": "2019-02-13",
+        "event": "NASA officially declares Opportunity mission over after 1,000+ recovery attempts",
+        "verified": true
+      }
+    ],
+    "verifiedFacts": [
+      "Landed January 25, 2004 at Meridiani Planum — Source: NASA",
+      "Operated 5,111 sols — Source: Planetary Society / NASA JSC",
+      "Total distance driven: 45.16 km — Source: Planetary Society",
+      "Last communication: June 10, 2018 — Source: NASA science.nasa.gov",
+      "Mission declared over: February 13, 2019 — Source: NASA",
+      "Mission designed for 90 sols — Source: NASA JPL"
+    ],
+    "unknownFacts": [
+      "Whether the dust storm cleared sufficiently to have recharged the batteries — unknown if batteries were too degraded",
+      "Exact current position within Perseverance Valley, Endeavour Crater"
+    ],
+    "evidenceLevel": "high",
+    "featuredOnHome": false,
+    "category": "Rover",
+    "tags": ["Mars", "Rover", "MER", "Meridiani Planum", "Water"],
+    "narrative": "Designed for 90 days, Opportunity explored Mars for nearly 15 years. It drove further than any vehicle had ever driven on another planet. It found the proof that Mars once had liquid water. Then, in June 2018, the sky went dark. A dust storm like nothing seen in decades blanketed the planet. Engineers sent 1,000 messages into the silence. On the night of February 13, 2019, they played Billie Holiday's 'I'll Be Seeing You' in the control room and said goodbye."
+  }
+]

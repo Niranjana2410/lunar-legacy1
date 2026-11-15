@@ -1,0 +1,45 @@
+/* App shell styles */
+main {
+  min-height: 100vh;
+}
+
+.site-footer {
+  background: var(--navy-mid);
+  border-top: 1px solid var(--border);
+  padding: 2.5rem 0;
+}
+.site-footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.site-footer__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--silver-dim);
+}
+.site-footer__links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.site-footer__links a {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition: color var(--transition);
+}
+.site-footer__links a:hover { color: var(--gold); }
+.site-footer__credit {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+}
+@media (max-width: 640px) {
+  .site-footer__inner { flex-direction: column; align-items: flex-start; }
+}

@@ -1,0 +1,110 @@
+.archive__hero {
+  padding: 8rem 0 3rem;
+  background: linear-gradient(180deg, var(--navy-mid) 0%, var(--navy) 100%);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2.5rem;
+}
+.archive__hero h1 { margin-bottom: 0.75rem; }
+.archive__sub {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  max-width: 540px;
+}
+
+.archive__filters {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  background: var(--navy-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  margin-bottom: 1.5rem;
+}
+.archive__search {
+  position: relative;
+}
+.archive__search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 0.9rem;
+}
+.archive__search-input {
+  width: 100%;
+  padding: 0.75rem 1rem 0.75rem 2.5rem;
+  background: var(--navy);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  transition: border-color var(--transition);
+  outline: none;
+}
+.archive__search-input:focus {
+  border-color: var(--border-gold);
+}
+.archive__search-input::placeholder {
+  color: var(--text-muted);
+}
+.archive__filter-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.archive__pills {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.archive__pill {
+  padding: 0.3rem 0.9rem;
+  border-radius: 100px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+.archive__pill:hover {
+  border-color: var(--border-gold);
+  color: var(--gold);
+}
+.archive__pill--active {
+  background: var(--gold-glow);
+  border-color: var(--border-gold);
+  color: var(--gold);
+}
+
+.archive__count {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.05em;
+}
+
+.archive__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+.archive__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 5rem 0;
+  color: var(--text-muted);
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+}
+.archive__empty span { font-size: 3rem; }
